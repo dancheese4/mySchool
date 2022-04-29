@@ -64,6 +64,9 @@ a {
 	text-decoration: none;
 	color:  #0000CD;
 }
+a:hover{
+	color: #0000CD;
+}
 .photo {
 	margin-top: 2%;
 	margin-right: 9%;
