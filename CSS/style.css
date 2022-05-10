@@ -1,0 +1,178 @@
+body{
+	min-width: 320px;
+	font-size: 35px;
+	background-color: #FAEBD7;
+}
+header{
+	background-color: white;
+	height: 85px;
+	width: 100%;
+}
+.logo{
+	position: absolute;
+	margin-top: 2px;
+	margin-left: 5px;
+	width: 82px;
+}
+.navbar{
+	margin-left: 70px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: #FF8C00;
+	transition: 0.3s;
+}
+.menu {
+	list-style-type: none;
+	width: 250px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+.submenu {
+	background-color: white;
+	border: 2px solid #DCDCDC;
+	border-radius: 8px;
+	font-size: 25px;
+	text-align: left;
+	position: relative;
+	display: none;
+}
+.submenu >a:hover {
+	color: #FF8C00;
+	transition: 0.3s;
+}
+.menu:hover>.submenu {
+	display: block;
+}
+.nafnaf {
+	height: 65px;
+	border: 2px solid #DCDCDC;
+	border-radius: 8px;
+	text-align: center;
+	width: 100%;
+}
+.container{
+	max-width: 1660px;
+	margin-top: 10px;
+	background-color: white;
+	border: 2px solid #DCDCDC;
+	border-radius: 8px;
+}
+h1{
+	font-size: 35px;
+	text-align: center;
+	margin-top: 15px;
+}
+.build{
+	max-width: 900px;
+	max-height: 600px;
+	width: 100%;
+	display: block;
+    height: auto;
+	margin: auto;
+}
+h2{
+	text-align: center;
+	margin-top: 40px;
+}
+.foto {
+	max-width: 280px;
+	max-height: 400px;
+	display: block;
+	margin: auto;
+	height: auto;
+}
+h3{
+	text-align: center;
+	margin-top: 15px;
+}
+table{
+	margin: auto;
+	width: 60%;
+}
+.contacts{
+	font-size: 30px;
+	border: 2px solid black;
+}
+.find{
+	margin-top: 50px;
+	width: 80%;
+}
+h4{
+	text-align: left;
+	font-size: 25px;
+}
+h5{
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+}
+iframe{
+	height: 600px;
+	max-width: 800px;
+	max-height: 400px;
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+.profil{
+	float: right;
+	height: 100%;
+}
+.math{
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.info{
+	float: right;
+	width: 550px;
+	margin-top: 40px;
+	margin-right: 30px;
+	margin-left: 5px;
+}
+@media (max-width: 886px) {
+	.navbar{
+		display: inline-block;
+		width: 105%;
+		margin-left: 0;
+	}
+	header{
+		height: 80%;
+	}
+	.logo{
+		position: relative;
+		display: block;
+		margin: auto;
+	}
+	.menu{
+		width: 90%;
+	}
+	.submenu{
+		display: block;
+		text-align: left;
+	}
+	.profil{
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+	.info{
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+}
+@media (max-width: 584px) {
+	.math{
+		width: 100%;
+	}
+	table{
+		width: 100%;
+	}
+}
